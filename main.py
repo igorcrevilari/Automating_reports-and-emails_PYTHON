@@ -10,7 +10,7 @@ import pandas as pd
 sleep(10)
 pyautogui.PAUSE = 1
 pyautogui.hotkey("ctrl", "t")
-pyperclip.copy("https://drive.google.com/drive/folders/14oLE59U1RqyRqlBbKpsyymW-mitvbtoh")
+pyperclip.copy("drive") # link do drive
 pyautogui.hotkey("ctrl", "v")
 pyautogui.press("enter")
 sleep(5)  # Adaptar de acordo com a conexão de internet
@@ -25,7 +25,7 @@ pyautogui.click(x=741, y=510)
 sleep(5)
 
 # ABSTRAINDO DADOS
-tabela = pd.read_excel(r"C:\Users\igor\Downloads\Vendas - Dez.xlsx", sheet_name=None)
+tabela = pd.read_excel(r"caminho do arquivo", sheet_name=None) # caminho do arquivo
 print(tabela)
 
 faturamento = tabela["Valor Final", None].sum()
@@ -47,7 +47,7 @@ sleep(5)
 pyautogui.click(x=80, y=203)  # Abrindo caixa de envio
 sleep(5)
 
-pyautogui.write("email@gmail.com")
+pyautogui.write("email@gmail.com") # email escolhido
 pyautogui.press("tab")  # seleciona o email
 # escreve outro email
 # tab
