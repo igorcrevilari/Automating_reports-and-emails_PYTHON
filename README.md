@@ -1,10 +1,10 @@
-# — Automatizando Relatórios e Emails com Python... 🐍
+# — Automating Reports and Emails with Python... 🐍
 
-O arquivo tem base nas bibliotecas PyautoGUI e Pyperclip, para a automatização de navegação pela web e Pandas para a análise de dados.
+The file is based on the PyautoGUI and Pyperclip libraries for web browsing automation and Pandas for data analysis.
 <br><br>
-Com este programa em Python, basta estar com a página aberta para o software navegar, acessando um Google Drive e baixando um banco de dados em Excel. Logo após, irá fazer uma análise sobre a tabela e retribuir o total de faturamento e itens vendidos durante o mês.
+With this program in Python, just have the page open for the software to navigate, accessing a Google Drive and downloading a database in Excel. Soon after, you will analyze the table and repay the total billing and items sold during the month.
 <br><br>
-Logo após a análise, o programa abrirá o e-mail (deve estar logado pelo usuário) e enviará para uma lista de pessoas pré-selecionadas o relatório.
+After the analysis, the program will open the email (the user must be logged in) and send the report to a list of pre-selected people.
 <br><br>
 <hr>
 <div align="center">
